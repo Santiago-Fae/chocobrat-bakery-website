@@ -4,85 +4,154 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
+    font-family: 'Poppins', sans-serif;
 }
 
-nav {
-    padding: 32px 32px;
-    min-height: 80px;
-    background: #1f1f1f;
+header {
+    border-bottom: #e4e4e4 1px solid;
+    padding: 20px
 }
 
-nav > a {
-    vertical-align: bottom;
+header li {
+    margin-left: 50px;
+    font-size: 16px;
+    color: #272727;
 }
 
-nav img {
-    max-height: 48px;
-    background-color: white;
+header li .selected {
+    color: #4A1D1F;
 }
 
-.spacer {
-    /* Parent width - Logo width - Menu <ul> width */
-    width: calc(100% - 132px - 276px);
+header input {
+    border: 1px solid #4A1D1F;
+    padding-left: 10px;
 }
 
-
-nav ul li {
-    margin-right: 20px;
-}
-
-#last-item- {
-    margin-right: 0px;
-}
-
-nav ul li a:link,
-nav ul li a:visited {
-    color: white;
-}
-
-nav ul li a:hover {
-    color: rgb(4, 0, 255);
-}
-
-nav ul li a:active {
-    color: rgb(255, 0, 179);
-}
-
-main {
-    height: 600px;
-}
-
-
-.float-left {
-    float: left;
-}
-
-.float-right {
-    float: right;
-}
-
-.clear {
-    clear: both;
-}
-
-.head {
+header .searchButton {
+    background-color: #4A1D1F;
+    width: 45px;
+    height: 45px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.headMenu {
-    display: flex;
+    justify-content: center;
     align-content: center;
     flex-wrap: wrap;
 }
 
-.flex-column {
-    display: flex;
-    flex-direction: column;
+header .searchButton img {
+    width: 19px;
+    height: 19px;
+    justify-content: center;
 }
 
+.titleLogo {
+    color: #4A1D1F;
+    font-size: 30px;
+}
 
+.titleBanner {
+    color: #4A1D1F;
+    font-size: 44px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
+.textBanner {
+    font-size: 24px;
+}
+
+.boxBannerText {
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    padding: 0 110px;
+}
+
+.boxBannerText button {
+    font-size: 20px;
+    padding: 9px 33px;
+}
+
+.boxBannerText .buttonOrder {
+    background-color: #4A1D1F;
+    color: white;
+    border-radius: 4px;
+}
+
+.boxBannerText .buttonMenu {
+    border: 1px solid #4A1D1F;
+    color: #4A1D1F;
+    border-radius: 4px;
+}
+
+.boxCarrousel {
+    margin-top: -120px;
+    background-color:rgba(255, 255, 255, 0.6);
+    float: right;
+    width: 50%;
+}
+
+/***************/
+/* END BANNER */
+/***************/
+
+.titleAbout {
+    color: #4A1D1F;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.separator {
+    border-left: #4A1D1F 1px solid;
+    width: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.textAbout {
+    font-size: 22px;
+    border-left: #4A1D1F 1px solid;
+    padding: 10px 10px 10px 30px;
+    text-align: justify;
+}
+
+/***************/
+/* END ABOUT */
+/***************/
+
+.ratingSection {
+    box-sizing: content-box;
+    overflow: hidden;
+    width: 100%;
+}
+.boxRating > img {
+    width: 231px;
+    height: 328px;
+}
+
+.titleRating {
+    font-size: 22px;
+}
+
+.boxStars img {
+    width: 26px;
+    height: 26px;
+    margin-right: 5px;
+} 
+
+.ratingText {
+    font-size: 16px;
+    color: #707070;
+    padding-top: 4px;
+}
+
+.buttonViewMore {
+    border: 1px solid #4A1D1F;
+    color: #4A1D1F;
+    border-radius: 4px;
+    padding: 9px 32px;
+    font-size: 20px;
+}
 
 /* 
 <!-- SANTIAGO UP -->

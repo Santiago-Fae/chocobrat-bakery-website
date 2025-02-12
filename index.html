@@ -5,36 +5,133 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./main.css">
     <link rel="stylesheet" href="./css-support/tailwind.min.css">
-    <title>Basic Nav Example</title>
+    <title>Chocobrat</title>
 </head>
 <body>
-    <header>
-        <a href="#">Chocobrat</a>
-        <nav aria-label="Main Navigation">
-                <ul class="headMenu" aria-label="Navigation Links">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Categories</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                </ul>
+    <header class="flex justify-around" aria-label="Page Header">
+        <div class="flex items-center"><a href="#" class="titleLogo">Chocobrat</a></div>
+        <nav aria-label="Main Navigation" class="flex items-center ml-32">
+            <ul class="flex" aria-label="Navigation Links">
+                <li><a href="#" class="selected">Home</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
         </nav>
-        <div>
-            <div>
-                <input type="text">
-                <button>Search</button>
+        <div class="flex">
+            <div class="flex mr-10">
+                <input type="text" placeholder="Search">
+                <button class="searchButton"><img src="./assets/icons/glass.svg"></button>
             </div>
-            <div>
-                <a href=""><img src="" alt=""></a>
-                <a href=""><img src="" alt=""></a>
+            <div class="flex flex-wrap items-center justify-center  ">
+                <a href="" class="mr-10"><img src="./assets/icons/people.svg"></a>
+                <a href=""><img src="./assets/icons/cart.svg"></a>
             </div>
         </div>
     </header>
-    <header aria-label="Page Header">
-        <h1 style="text-align: center;">My Webpage</h1>
-    </header>
     <main id="mainContent">
         <section>
-
+            <div class="flex">
+                <div class="boxBannerText flex flex-col">
+                    <h1 class="titleBanner">Bring you Happiness through a piece of cake</h1>
+                    <p class="textBanner pr-10">We make Diffrent type of cakes, chocolate, soft cookies, cheesecake pie or anything you want.</p>
+                    <div class="flex w-full mt-10">
+                        <button class="buttonOrder mr-10">Order Now</button>
+                        <button class="buttonMenu">See All Menus</button>
+                    </div>
+                </div>
+                <div>
+                    <img src="./assets/banner/chocolate-cake.jpg" alt="cake of chocolate">
+                </div>
+            </div>
+            <div class="boxCarrousel flex justify-end relative">
+                <img src="./assets/banner/carrousel-cake-2.png" alt="cake">
+                <img src="./assets/banner/carrousel-cake-1.png" alt="cake">
+                <img src="./assets/banner/carrousel-cake-3.png" alt="cake">
+            </div>
+        </section>
+        <section class="my-32">
+            <div class="flex w-full px-20">
+                <h1 class="titleAbout flex items-center w-2/5 mr-10">Try Our Best Selling</h1>
+                <p class="textAbout w-3/5">Here's our best creations that everyone loves. Lightness and sweetness of the cake make you want more and more. Start from cake, bread and other creations.</p>
+            </div>
+        </section>
+        <section class="ratingSection mb-32">
+            <div class="flex w-full pl-20">
+                <div class="boxRating w-1/5">
+                    <img src="./assets/rating/rating-1.png" alt="cake">
+                    <h3 class="titleRating mb-3">Red Velvet & Cream Cheese ( 500g )</h3>
+                    <div class="flex items-center">
+                        <div class="boxStars flex items-center">
+                            <img src="./assets/rating/star-full.svg" alt="star rating">
+                            <img src="./assets/rating/star-full.svg" alt="star rating">
+                            <img src="./assets/rating/star-full.svg" alt="star rating">
+                            <img src="./assets/rating/star-full.svg" alt="star rating">
+                            <img src="./assets/rating/star-empty.svg" alt="star rating">
+                        </div>
+                        <p class="ratingText">4.0 Rating</p>
+                    </div>
+                </div>
+                <div class="boxRating w-1/5">
+                    <img src="./assets/rating/rating-2.png" alt="cake">
+                    <h3 class="titleRating mb-3">Red Velvet & Cream Cheese ( 500g )</h3>
+                    <div class="flex items-center">
+                        <div class="boxStars flex items-center">
+                            <img src="./assets/rating/star-full.svg" alt="star rating">
+                            <img src="./assets/rating/star-full.svg" alt="star rating">
+                            <img src="./assets/rating/star-full.svg" alt="star rating">
+                            <img src="./assets/rating/star-full.svg" alt="star rating">
+                            <img src="./assets/rating/star-empty.svg" alt="star rating">
+                        </div>
+                        <p class="ratingText">4.0 Rating</p>
+                    </div>
+                </div>
+                <div class="boxRating w-1/5">
+                    <img src="./assets/rating/rating-3.png" alt="cake">
+                    <h3 class="titleRating mb-3">Red Velvet & Cream Cheese ( 500g )</h3>
+                    <div class="flex items-center">
+                        <div class="boxStars flex items-center">
+                            <img src="./assets/rating/star-full.svg" alt="star rating">
+                            <img src="./assets/rating/star-full.svg" alt="star rating">
+                            <img src="./assets/rating/star-full.svg" alt="star rating">
+                            <img src="./assets/rating/star-full.svg" alt="star rating">
+                            <img src="./assets/rating/star-empty.svg" alt="star rating">
+                        </div>
+                        <p class="ratingText">4.0 Rating</p>
+                    </div>
+                </div>
+                <div class="boxRating w-1/5">
+                    <img src="./assets/rating/rating-4.png" alt="cake">
+                    <h3 class="titleRating mb-3">Red Velvet & Cream Cheese ( 500g )</h3>
+                    <div class="flex items-center">
+                        <div class="boxStars flex items-center">
+                            <img src="./assets/rating/star-full.svg" alt="star rating">
+                            <img src="./assets/rating/star-full.svg" alt="star rating">
+                            <img src="./assets/rating/star-full.svg" alt="star rating">
+                            <img src="./assets/rating/star-full.svg" alt="star rating">
+                            <img src="./assets/rating/star-empty.svg" alt="star rating">
+                        </div>
+                        <p class="ratingText">4.0 Rating</p>
+                    </div>
+                </div>
+                <div class="boxRating w-1/5">
+                    <img src="./assets/rating/rating-5.png" alt="cake">
+                    <h3 class="titleRating mb-3">Red Velvet & Cream Cheese ( 500g )</h3>
+                    <div class="flex items-center">
+                        <div class="boxStars flex items-center">
+                            <img src="./assets/rating/star-full.svg" alt="star rating">
+                            <img src="./assets/rating/star-full.svg" alt="star rating">
+                            <img src="./assets/rating/star-full.svg" alt="star rating">
+                            <img src="./assets/rating/star-full.svg" alt="star rating">
+                            <img src="./assets/rating/star-empty.svg" alt="star rating">
+                        </div>
+                        <p class="ratingText">4.0 Rating</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-center mt-20">
+                <button class="buttonViewMore flex">View More <img class="ml-3" src="./assets/rating/arrow-right.svg" alt="arrow right"></button>
+            </div>
         </section>
         <!-- SANTIAGO UP -->
         <!-- KAHO UNDER -->
