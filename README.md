@@ -1,3 +1,3 @@
 # chocobrat-bakery-website
 
-Credist to design of Mr. Gopal Sapara
+Credit to design of Mr. Gopal Sapara
