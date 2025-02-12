@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Basic Nav Example</title>
+</head>
+<body>
+    <nav aria-label="Main Navigation">
+        <div class="head">
+            <ul class="headMenu" aria-label="Navigation Links">
+                <li><a href="#" id="current-page">Home</a></li>
+                <li><a href="./pages/about.html">About</a></li>
+                <li id="last-item"><a href="./pages/contact.html">Contact</a></li>
+                <li id="last-item"><a href="./pages/countries.html" aria-label="Countries">Countries</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header aria-label="Page Header">
+        <h1 style="text-align: center;">My Webpage</h1>
+    </header>
+    <main id="mainContent">
+
+    </main>
+    <footer aria-label="Page Footer">
+        <nav class="flex-column">
+            <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li id="last-item-footer"><a href="#">Cookies</a></li>
+            </ul>
+            <hr>
+            <p class="copyright">&copy; 2024 My Webpage</p>
+        </nav>
+    </footer>
+</body>
+</html>
