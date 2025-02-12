@@ -4,19 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./css-support/tailwind.min.css">
     <title>Basic Nav Example</title>
 </head>
 <body>
-    <nav aria-label="Main Navigation">
-        <div class="head">
-            <ul class="headMenu" aria-label="Navigation Links">
-                <li><a href="#" id="current-page">Home</a></li>
-                <li><a href="./pages/about.html">About</a></li>
-                <li id="last-item"><a href="./pages/contact.html">Contact</a></li>
-                <li id="last-item"><a href="./pages/countries.html" aria-label="Countries">Countries</a></li>
-            </ul>
+    <header>
+        <a href="#">Chocobrat</a>
+        <nav aria-label="Main Navigation">
+                <ul class="headMenu" aria-label="Navigation Links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+        </nav>
+        <div>
+            <div>
+                <input type="text">
+                <button>Search</button>
+            </div>
+            <div>
+                <a href=""><img src="" alt=""></a>
+                <a href=""><img src="" alt=""></a>
+            </div>
         </div>
-    </nav>
+    </header>
     <header aria-label="Page Header">
         <h1 style="text-align: center;">My Webpage</h1>
     </header>
