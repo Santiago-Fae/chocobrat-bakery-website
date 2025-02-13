@@ -158,10 +158,153 @@ header .searchButton img {
 <!-- KAHO UNDER --> 
 */
 
-.content_box{
-
+.flex_container{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 110px;
 }
 
-.box_title{
+.text{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
 
+.read-more-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-top: 30px;
+}
+
+.mark{
+    width: 20px;
+}
+
+.woman_image{
+    width: 50%;
+    height: auto;
+}
+
+.contact_container{
+    padding: 90px 150px;
+    background-color: rgb(250, 233, 199);
+    color: #4A1D1F;
+    text-align: center;
+}
+
+.bold_text{
+    font-size: 25px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.contact_button{
+    background-color: #4A1D1F;
+    color: white;
+    border-radius: 4px;
+    font-size: 15px;
+    padding: 9px 30px;
+    margin-top: 30px;
+}
+
+.last_box{
+    text-align: center;
+}
+
+.badge{
+    display: block;
+    margin: auto;
+    padding-top: 80px;
+}
+
+.quote_box{
+    position: relative;
+    width: 80%;
+    max-width: 600px;
+    margin:auto;
+    padding:10px  40px;
+    text-align: center;
+}
+
+
+.left_quote {
+    position: absolute;
+    top: 3px;
+    left: 60px;
+    width: 70px;
+}
+
+.right_quote {
+    position: absolute;
+    bottom: 10px;
+    right: 70px;
+    width: 70px;
+    z-index: -1;
+}
+
+.quote-text {
+    position: relative;
+    font-size: 20px;
+    font-weight: bold;
+    color: #222;
+    line-height: 1.5;
+    z-index: 1;
+}
+
+.picture{
+    display: block;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.name{
+    font-weight: bold;
+    padding: 10px;
+}
+
+.dot{
+    display: block;
+    margin: auto;
+    width: 30px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.footer_container{
+    padding:40px 0;
+    background-color: rgb(250, 233, 199);
+}
+
+.footer_container h2{
+    color: #4A1D1F;
+    font-size: 22px;
+    letter-spacing: 4px;
+    padding: 0 150px 30px 0;
+}
+
+.top-footer{
+    display: flex;
+    padding-left: 200px;
+    border-bottom:0.5px solid #a48060;
+}
+
+.footer_nav ul{
+    display: flex;
+    margin-left: auto;
+    gap: 70px;
+    align-content: center;
+}
+
+.under-footer{
+    display: flex;
+    padding: 40px 70px 50px 200px;   
+    gap: 15px;
+}
+
+.copyright{
+    letter-spacing: 1px;
+    padding-right: 500px;
 }
